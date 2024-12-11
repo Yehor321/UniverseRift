@@ -1,0 +1,48 @@
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../../../assets/images/file-2sHa9wBxh9Ywtt19G5ihF5hB.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MainLogo {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    scale: 1.1;
+}
+.DiscordButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    font-size: 30px;
+    color: white;
+    background-image: url("../../../assets/images/paper.webp");
+    border-radius: 8px;
+    margin: 1%;
+    transition: 0.2s;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+    box-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.DiscordButton:hover{
+    scale: 1.2;
+}
+.DiscordButtonImg{
+    width: 40px;
+    height: 40px;
+}
+.MainText{
+    font-size: 40px;
+    margin-top: 3%;
+    color: white;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.DiscordButton:hover{
+    background-color: #1a1a1a;
+}

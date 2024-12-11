@@ -1,0 +1,15 @@
+{
+    "main":{
+        "home": "Home",
+        "new": "News",
+        "about": "About Us",
+        "shop": "Shop",
+        "button_join": "Join us on",
+        "text_support": "We are looking for your support"
+    },
+    "landingPage":{
+        "key": "KEY POINTS",
+        "how": "HOW IT WORKS",
+        "crowd": "CROWDFUNDING"
+    }
+}

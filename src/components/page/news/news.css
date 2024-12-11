@@ -1,0 +1,26 @@
+.News__Main{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../../assets/images/qwer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 2px white;
+}
+.News__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 10% 0 10%;
+}
+.News__card_Post{
+    min-width: 50%;
+    height: 50%;
+    margin-right: 5%;
+}
+.News__card_contend p{
+    font-size: 30px;
+}
+.News__card_contend h1{
+    margin-bottom: 3%;
+}

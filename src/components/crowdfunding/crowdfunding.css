@@ -1,0 +1,68 @@
+.Crowdfunding{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url("../../assets/images/qwer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px 2px white;
+}
+.Crowdfunding__Qwerty{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.Crowdfunding__Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.Crowdfunding__Box:hover{
+    scale: 1.5;
+}
+.Crowdfunding__Logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 3px rgb(0, 0, 0);
+}
+.Crowdfunding__MainText{
+    font-size: 50px;
+}
+.Crowdfunding__Text{
+    color: black;
+    font-size: 30px;
+    margin-top: 5%
+}
+@media screen and (max-width: 800px) {
+    .Crowdfunding__Logo {
+    width: 150px;
+    height: 150px;
+    }
+    .Crowdfunding__Text{
+    font-size: 20px;
+    }
+    .Crowdfunding__MainText{
+    font-size: 40px;
+    }
+    .Crowdfunding__Qwerty{
+    flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Crowdfunding__Logo {
+    margin: 5%;
+    }
+    .Crowdfunding__MainText{
+    font-size: 27px;
+    }
+}
+
+  

@@ -1,0 +1,43 @@
+.AboutUniverseRift__Main{
+    width: 100%;
+    min-height: 100vh;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+}
+.AboutUniverseRift__Main .container {
+    display: flex;
+    flex-direction: column;
+}
+.AboutUniverseRift__Main .DynamicCombatRPG {
+    background-image: url("../../../assets/images/qwer1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.AboutUniverseRift__Main .ExpansiveWorld {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("../../../assets/images/qwer2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.AboutUniverseRift__Main .STEAMPUNK {
+    background-image: url("../../../assets/images/feature-visual.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+}  
+.item__background{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.401);
+    padding: 10%;
+}
+.AboutUniverseRift__Main h3{
+    font-size: 40px;
+}
+.AboutUniverseRift__Main p{
+    font-size: 25px;
+}
+  
+
+  
+  

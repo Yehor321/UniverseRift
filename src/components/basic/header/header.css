@@ -1,0 +1,90 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.firstHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 5px;
+    justify-content: flex-end;
+}
+.firstHeader__item {
+    display: block;
+    font-size: .6875rem;
+    color: #ffffff;
+    padding: 0 .9375rem;
+    text-transform: uppercase;
+}
+.secondHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../../assets/images/OIP.webp");
+    background-position: center;
+    border-bottom: 1px solid #731b1b;
+    font-size: 25px;
+}
+.secondHeader__item{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.3%;
+    width: 15%;
+    transition: 0.2s;
+}
+.secondHeader__item:hover{
+    background-color: #1a1a1a;
+}
+
+.firstHeader__custom-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.selector-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #1a1a1a;
+    display: inline-block;
+    border: none;
+}
+
+.selector-button:focus {
+    outline: none;
+}
+
+.firstHeader__dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 4px;
+}
+
+.firstHeader__dropdown-item {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+}
+
+.firstHeader__dropdown-item:hover {
+    background-color: #000000;
+}
+
+.firstHeader__dropdown-item:focus {
+    outline: none;
+}
