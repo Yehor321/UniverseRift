@@ -2,10 +2,10 @@ import "./aboutuniverserift.css"
 import { useTranslation } from 'react-i18next';
 
 export default function AboutUniverseRift() {
-  const { t, i18n } = useTranslation(); 
+  const { t} = useTranslation(); 
     return (
       <div className="AboutUniverseRift__Main">
-        <div class="container">
+        <div className="container">
 
           <div className="item DynamicCombatRPG">
             <div className="item__background">

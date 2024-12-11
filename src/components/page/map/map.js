@@ -9,7 +9,7 @@ import mapRoads from "../../../assets/map/map_roads.webp";
 import mapName from "../../../assets/map/map_name.webp";
 
 export default function Map() {
-  const { t, i18n } = useTranslation(); 
+  const { t} = useTranslation(); 
   useEffect(() => {
     const handleMouseMove = (e) => {
       document.documentElement.style.setProperty(

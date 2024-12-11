@@ -9,13 +9,8 @@ import LandingPage from "../../screen/landingPage"
 
 export default function Header() {
 
-    const [selectedOption, setSelectedOption] = useState(null);
+    const [selectedOption] = useState(null);
     const [isOpen, setIsOpen] = useState(false);
-
-    const handleSelect = (option) => {
-        setSelectedOption(option);
-        setIsOpen(false);
-    };
 
     const { t, i18n } = useTranslation(); 
 

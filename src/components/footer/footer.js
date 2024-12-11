@@ -6,9 +6,6 @@ import Instagram from "../../assets/social-media-icons/Instagram_icon_qwe.png"
 import X from "../../assets/social-media-icons/X_icon_qwe.png"
 import Youtube from "../../assets/social-media-icons/youtube_icon_qwe.png"
 
-import UnrealEngine from "../../assets/footer/UnrealEngineLogo.png"
-import Steam from "../../assets/footer/SteamLogo.png"
-
 export default function Footer() {
     return (
       <div className="Footer">

@@ -5,13 +5,13 @@ import DiscorsIcon from "../../../assets/images/discord-logo-discord-icon-transp
 
 export default function Home() {
 
-  const { t, i18n } = useTranslation(); 
+  const { t} = useTranslation(); 
 
     return (
       <>
         <div className="Home">
-          <img className="MainLogo" src={UniverseRift}></img>
-          <a className="DiscordButton" href="https://discord.gg/TXBFBHJyDs">{t('home.button_join')}<img className="DiscordButtonImg" src={DiscorsIcon}></img></a>
+          <img className="MainLogo" src={UniverseRift} alt="UniverseRiftLogo"></img>
+          <a className="DiscordButton" href="https://discord.gg/TXBFBHJyDs">{t('home.button_join')}<img className="DiscordButtonImg" src={DiscorsIcon} alt="DiscordButtonImg"></img></a>
           <p className="MainText">{t('home.text_support')}</p>
         </div>
       </>

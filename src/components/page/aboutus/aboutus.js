@@ -1,13 +1,12 @@
 import "./aboutus.css";
 import React, { useRef, useState } from "react";
-import Testimg from "../../../assets/images/sakamoto_2023.jpg";
 import Bohdan from "../../../assets/images/Bohdan.png"
 import Nikita from "../../../assets/images/rounded_corners_image_new.png"
 import Yehor from "../../../assets/images/yehor.jpg"
 import { useTranslation } from 'react-i18next';
 
 export default function AboutUs() {
-  const { t, i18n } = useTranslation(); 
+  const { t } = useTranslation(); 
   const dialogRef = useRef(null);
   const [content, setContent] = useState("");
   const [image, setImage] = useState("");
