@@ -11,6 +11,7 @@
     background-image: url("../../../assets/images/qwer1.webp");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .AboutUniverseRift__Main .ExpansiveWorld {
     display: flex;
@@ -18,14 +19,15 @@
     background-image: url("../../../assets/images/qwer2.webp");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .AboutUniverseRift__Main .STEAMPUNK {
     background-image: url("../../../assets/images/feature-visual.webp");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }  
 .item__background{
-    height: 100%;
     width: 50%;
     background-color: rgba(0, 0, 0, 0.401);
     padding: 10%;
@@ -38,10 +40,10 @@
 }
 @media screen and (max-width: 450px) {
     .AboutUniverseRift__Main h3{
-        font-size: 15px;
+        font-size: 20px;
     }
     .AboutUniverseRift__Main p{
-        font-size: 10px;
+        font-size: 15px;
     }
 }  
 

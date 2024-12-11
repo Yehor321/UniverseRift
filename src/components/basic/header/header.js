@@ -22,7 +22,7 @@ export default function Header() {
         <>
         <header>
             <div className="firstHeader">
-                <a className="firstHeader__item Shop" href="https://www.kickstarter.com/projects/universerift/universe-rift-mmorpg-with-full-loot-sandbox-system?ref=discovery_category_newest&total_hits=21593&category_id=35">{t('header.shop')}</a>
+                <a className="firstHeader__item Shop" href="https://www.kickstarter.com/projects/universerift/universe-rift-mmorpg-with-full-loot-sandbox-system?ref=discovery_category_newest&total_hits=21593&category_id=35">{t('header.supp')}</a>
                 
                 
                 <div className="firstHeader__item firstHeader__custom-selector">
@@ -31,8 +31,9 @@ export default function Header() {
                     </button>
                     {isOpen && (
                         <div className="firstHeader__dropdown">
-                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('en')}>en</button>
-                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('jp')}>jp</button>
+                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('en')}>English</button>
+                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('jp')}>Japanese</button>
+                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('ru')}>Russian </button>
                         </div>
                     )}
                 </div>

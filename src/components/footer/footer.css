@@ -4,7 +4,7 @@
     justify-content: space-around;
     background-image: url("../../assets/images/OIP.webp");
     background-position: center;
-    padding: 0.2%;
+    padding: 3%;
     border-top: 1px solid #731b1b;
 }
 .Footer__Messengers, .Footer__Platforms{
@@ -21,12 +21,11 @@
 }
 @media screen and (max-width: 450px) {
     .Footer__Messengers_Img, .Footer__Platforms_Img{
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 25px;
     }
     .Footer__MainLogo{
-        height: 50%;
-        width: 200px;   
+        width: 220px;   
     }
     .Footer__Messengers, .Footer__Platforms{
         gap: 1px;
