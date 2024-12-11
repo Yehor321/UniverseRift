@@ -1,6 +1,5 @@
 .AboutUniverseRift__Main{
     width: 100%;
-    min-height: 100vh;
     text-shadow: 1px 1px 3px black;
     color: white;
 }
@@ -37,7 +36,14 @@
 .AboutUniverseRift__Main p{
     font-size: 25px;
 }
-  
+@media screen and (max-width: 450px) {
+    .AboutUniverseRift__Main h3{
+        font-size: 15px;
+    }
+    .AboutUniverseRift__Main p{
+        font-size: 10px;
+    }
+}  
 
   
   

@@ -11,8 +11,8 @@ export default function Home() {
       <>
         <div className="Home">
           <img className="MainLogo" src={UniverseRift}></img>
-          <a className="DiscordButton" href="https://discord.gg/TXBFBHJyDs">{t('main.button_join')}<img className="DiscordButtonImg" src={DiscorsIcon}></img></a>
-          <p className="MainText">{t('main.text_support')}</p>
+          <a className="DiscordButton" href="https://discord.gg/TXBFBHJyDs">{t('home.button_join')}<img className="DiscordButtonImg" src={DiscorsIcon}></img></a>
+          <p className="MainText">{t('home.text_support')}</p>
         </div>
       </>
     );

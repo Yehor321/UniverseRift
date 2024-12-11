@@ -1,15 +1,46 @@
 {
-    "main":{
+    "header": {
         "home": "ホーム",
-        "new": "ニュース",
-        "about": "私たちについて",
-        "shop": "ショップ",
-        "button_join": "参加する",
-        "text_support": "皆様のご支援をお願いいたします"
+        "new": "お知らせ",
+        "about": "社員紹介",
+        "shop": "応援"
     },
-    "landingPage":{
-        "key": "キーポイント",
+    "home": {
+        "button_join": "参加する",
+        "text_support": "あなたのサポートを求めています"
+    },
+    "landingPage": {
+        "key": "重要なポイント",
         "how": "仕組み",
-        "crowd": "クラウドファンディング"
+        "crowd": "応援"
+    },
+    "aboutuniverserift": {
+        "titleone": "ダイナミックなTPS/FPSコンバットRPG",
+        "subtitleone": "アクティブスキルを使用しながら、アクティブな動きを重視したRPGシューティングシステム。",
+        "titletwo": "生きている広大な世界",
+        "subtitletwo": "ランダムに生成されるダンジョン、ワールドボス、陸上や水中でのイベントにより、常に変化し続ける宇宙を提供。",
+        "titlethree": "スチームパンクの世界観",
+        "subtitlethree": "スチームパンクの独特な美学、ギアや機械の融合による代替的な過去を描く魅力に引き込まれるプレイヤーたち。"
+    },
+    "map": {
+        "description": "高度なAIを使用して動的なイベントやNPCの行動を実現し、『ユニバースリフト』はユニークでインタラクティブなゲーム体験を提供します。Unreal Engine 5で開発され、美しいビジュアルとノンターゲット戦闘、AI駆動型クエストが融合した没入型の世界を実現しています。"
+    },
+    "crowdfunding": {
+        "find": "こちらでも私たちを見つけることができます",
+        "campfire": "Campfireで私たちをサポートしてください",
+        "kickstarter": "Kickstarterで私たちをサポートしてください",
+        "indiegogo": "Indiegogoで私たちをサポートしてください"
+    },
+    "news": {
+        "title": "🎥 初のビジュアルトレーラーを公開しました！",
+        "subtitle": "『ユニバースリフト』の旅は始まったばかりです。初のビジュアルトレーラーを皆さんと共有できることを楽しみにしています！✨ スチームパンクの魔法、浮遊島、そして待ち受ける壮大な冒険に飛び込んでください。"
+    },
+    "about": {
+        "bohdantitle": "CEO, co-founder",
+        "bohdandescription": "APU経営学部の学生。10歳からITを学び、ロシアのフォーブス上位5社のIT企業でプロジェクトマネージャー兼チームリーダーとして3年間の経験を持つ。『ユニバースリフト』の開発に1年間従事。",
+        "nikitatitle": "リードゲームデザイナー、co-founder",
+        "nikitadescription": "XYZゲームデザインスクール卒業。Unreal Engine 5、NPO日本「ビジネスと市場分析」",
+        "yehortitle": "CTO, co-founder",
+        "yehordescription": "7年間プログラミングを学び、フルスタック開発者。C++、Unreal Engine 5ブループリント開発者として1年以上の実務経験を持つ。現在、立命館アジア太平洋大学に入学予定。"
     }
 }

@@ -1,9 +1,11 @@
 {
-    "main":{
+    "header":{
         "home": "Home",
         "new": "News",
         "about": "About Us",
-        "shop": "Shop",
+        "shop": "Shop"
+    },
+    "home":{
         "button_join": "Join us on",
         "text_support": "We are looking for your support"
     },
@@ -11,5 +13,34 @@
         "key": "KEY POINTS",
         "how": "HOW IT WORKS",
         "crowd": "CROWDFUNDING"
+    },
+    "aboutuniverserift":{
+        "titleone": "Dynamic TPS/FPS Combat RPG",
+        "subtitleone": "A dynamic RPG Shooter system based on active movement with the ability to use active skills.",
+        "titletwo": "Living, Expansive World",
+        "subtitletwo": "Randomly generated dungeons, world bosses, and events on land and in water, creating a universe that's constantly changing.",
+        "titlethree": "STEAMPUNK SETTING",
+        "subtitlethree": "Players are drawn to steampunk for its unique aesthetic, blending gears, machinery to create an alternative past."
+    },
+    "map":{
+        "description": "Using advanced AI for dynamic events and NPC behaviors, Universe Rift delivers unique, interactive gameplay. Developed in Unreal Engine 5, it combines stunning visuals with our non-target combat and AI-driven quests for a fully immersive world."
+    },
+    "crowdfunding":{
+        "find": "You can also find us here",
+        "campfire": "Support us on Campfire",
+        "kickstarter": "Support us on Kickstarter",
+        "indiegogo": "Support us on Indiegogo"
+    },
+    "news":{
+        "title": "🎥 We’ve Released Our First Visual Trailer!",
+        "subtitle": "The Universe Rift journey is just beginning, and we’re thrilled to share our very first visual trailer with you! ✨ Dive into the steampunk magic, floating islands, and epic adventures that await."
+    },
+    "about":{
+        "bohdantitle": "CEO, co-founder",
+        "bohdandescription": "APU management student. Studying IT since 10 y.o., 3 years working experience as a project manager and Team Lead in the top 5 IT companies in Russia according to Forbes, 1 year development of Univers Rift",
+        "nikitatitle": "Lead Game Designer, co-founder",
+        "nikitadescription": "XYZ School of Game Design, Unreal Engine 5, NPO Nippon “Business and Market Analysis",
+        "yehortitle": "CTO, co-founder",
+        "yehordescription": "Studying programming for 7 years, full-stack developer, C++, Unreal Engine 5 blueprint developer. Working experience more than 1 year.Currently enrolling into Ritsumeikan Asia Pacific University"
     }
 }

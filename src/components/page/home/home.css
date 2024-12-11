@@ -11,8 +11,7 @@
 }
 .MainLogo {
     max-width: 100%;
-    height: auto;
-    padding: 20px;
+    padding: 5%;
     scale: 1.1;
 }
 .DiscordButton{
@@ -45,4 +44,18 @@
 }
 .DiscordButton:hover{
     background-color: #1a1a1a;
+}
+@media screen and (max-width: 450px) {
+    .MainText{
+        font-size: 20px;
+    }
+    .MainLogo{
+        scale: 1;
+    }
+    .Home{
+        min-height: 100vh;
+    }
+    .DiscordButton{
+        margin: 10%;
+    }
 }

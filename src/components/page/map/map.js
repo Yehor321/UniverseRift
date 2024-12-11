@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import "./map.css";
 
 import mapClouded2 from "../../../assets/map/map_clouded2.webp";
@@ -8,6 +9,7 @@ import mapRoads from "../../../assets/map/map_roads.webp";
 import mapName from "../../../assets/map/map_name.webp";
 
 export default function Map() {
+  const { t, i18n } = useTranslation(); 
   useEffect(() => {
     const handleMouseMove = (e) => {
       document.documentElement.style.setProperty(
@@ -53,12 +55,7 @@ export default function Map() {
           ></div>
         </div>
       </section>
-      <p>
-        Using advanced AI for dynamic events and NPC behaviors, Universe Rift
-        delivers unique, interactive gameplay. Developed in Unreal Engine 5, it
-        combines stunning visuals with our non-target combat and AI-driven
-        quests for a fully immersive world.
-      </p>
+      <p>{t('map.description')}</p>
     </div>
   );
 }

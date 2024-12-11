@@ -1,29 +1,30 @@
 import "./aboutuniverserift.css"
+import { useTranslation } from 'react-i18next';
 
 export default function AboutUniverseRift() {
+  const { t, i18n } = useTranslation(); 
     return (
       <div className="AboutUniverseRift__Main">
         <div class="container">
 
           <div className="item DynamicCombatRPG">
             <div className="item__background">
-              <h3>Dynamic TPS/FPS Combat RPG</h3>
-              <p>A dynamic RPG Shooter system based on active movement with the ability to use active skills.</p>
+              <h3>{t('aboutuniverserift.titleone')}</h3>
+              <p>{t('aboutuniverserift.subtitleone')}</p>
             </div>
           </div>
 
           <div className="item ExpansiveWorld">
             <div className="item__background">
-              <h3>Living, Expansive World</h3>
-              <p>Randomly generated dungeons, world bosses, and events on land and in water, creating a universe that's constantly changing.</p>
+              <h3>{t('aboutuniverserift.titletwo')}</h3>
+              <p>{t('aboutuniverserift.subtitletwo')}</p>
               </div>
           </div>
 
-
           <div className="item STEAMPUNK">
             <div className="item__background">
-            <h3>STEAMPUNK SETTING</h3>
-              <p>Players are drawn to steampunk for its unique aesthetic, blending gears, machinery to create an alternative past.</p>
+            <h3>{t('aboutuniverserift.titlethree')}</h3>
+            <p>{t('aboutuniverserift.subtitlethree')}</p>
               </div>
           </div>
         </div>

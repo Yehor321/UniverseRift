@@ -10,6 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     text-shadow: 1px 1px 2px white;
+    text-align: center;
 }
 .Crowdfunding__Qwerty{
     display: flex;
@@ -22,16 +23,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition: 0.5s;
-}
-.Crowdfunding__Box:hover{
-    scale: 1.5;
 }
 .Crowdfunding__Logo{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     box-shadow: 1px 3px 3px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.Crowdfunding__Logo:hover{
+    scale: 1.5;
 }
 .Crowdfunding__MainText{
     font-size: 50px;
@@ -58,10 +59,14 @@
 }
 @media screen and (max-width: 450px) {
     .Crowdfunding__Logo {
-    margin: 5%;
+        margin: 5%;
     }
     .Crowdfunding__MainText{
-    font-size: 27px;
+        font-size: 27px;
+    }
+    .Crowdfunding__MainText{
+        font-size: 25px;
+
     }
 }
 

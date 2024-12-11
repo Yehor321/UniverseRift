@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Route, Routes, NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Download from "../../page/dowload/dowload"
-import Shop from "../../page/shop/shop"
 import News from "../../page/news/news"
 import AboutUs from "../../page/aboutus/aboutus"
 import LandingPage from "../../screen/landingPage"
@@ -28,10 +27,10 @@ export default function Header() {
         <>
         <header>
             <div className="firstHeader">
-                <a className="firstHeader__item Shop" href="https://www.kickstarter.com/projects/universerift/universe-rift-mmorpg-with-full-loot-sandbox-system?ref=discovery_category_newest&total_hits=21593&category_id=35">{t('main.shop')}</a>
+                <a className="firstHeader__item Shop" href="https://www.kickstarter.com/projects/universerift/universe-rift-mmorpg-with-full-loot-sandbox-system?ref=discovery_category_newest&total_hits=21593&category_id=35">{t('header.shop')}</a>
                 
                 
-                <div className="firstHeader__custom-selector">
+                <div className="firstHeader__item firstHeader__custom-selector">
                     <button className="selector-button" onClick={() => setIsOpen(!isOpen)}>
                         {selectedOption || 'Language'}
                     </button>
@@ -46,9 +45,9 @@ export default function Header() {
 
             </div>
             <div className="secondHeader">
-                <NavLink className="secondHeader__item LandingPage" to={'LandingPage'}>{t('main.home')}</NavLink>
-                <NavLink className="secondHeader__item News" to={'News'}>{t('main.new')}</NavLink>
-                <NavLink className="secondHeader__item AboutUs" to={'AboutUs'}>{t('main.about')}</NavLink>
+                <NavLink className="secondHeader__item LandingPage" to={'LandingPage'}>{t('header.home')}</NavLink>
+                <NavLink className="secondHeader__item News" to={'News'}>{t('header.new')}</NavLink>
+                <NavLink className="secondHeader__item AboutUs" to={'AboutUs'}>{t('header.about')}</NavLink>
             </div>
         </header>
 
