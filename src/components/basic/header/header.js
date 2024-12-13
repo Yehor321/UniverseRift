@@ -6,6 +6,7 @@ import Download from "../../page/dowload/dowload"
 import News from "../../page/news/news"
 import AboutUs from "../../page/aboutus/aboutus"
 import LandingPage from "../../screen/landingPage"
+import imgLanguage from "../../../assets/images/language.png"
 
 export default function Header() {
 
@@ -27,13 +28,13 @@ export default function Header() {
                 
                 <div className="firstHeader__item firstHeader__custom-selector">
                     <button className="selector-button" onClick={() => setIsOpen(!isOpen)}>
-                        {selectedOption || 'Language'}
+                        {selectedOption || <img className="firstHeader__imglanguage" src={imgLanguage} alt="imgLanguage"></img>}
                     </button>
                     {isOpen && (
                         <div className="firstHeader__dropdown">
                             <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('en')}>English</button>
-                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('jp')}>Japanese</button>
-                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('ru')}>Russian </button>
+                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('jp')}>日本語</button>
+                            <button className="firstHeader__dropdown-item" onClick={() => chanageLanguage('ru')}>Русский</button>
                         </div>
                     )}
                 </div>

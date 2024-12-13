@@ -18,27 +18,10 @@ header{
     padding: 0 .9375rem;
     text-transform: uppercase;
 }
-.secondHeader{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url("../../../assets/images/OIP.webp");
-    background-position: center;
-    border-bottom: 1px solid #731b1b;
-    font-size: 25px;
+.firstHeader__imglanguage{
+    width: 25px;
+    height: 25px;
 }
-.secondHeader__item{
-    text-align: center;
-    color: #ffffff;
-    padding: 0.3%;
-    width: 10%;
-    transition: 0.2s;
-}
-.secondHeader__item:hover{
-    background-color: #1a1a1a;
-}
-
 .firstHeader__custom-selector {
     position: relative;
     display: inline-block;
@@ -86,6 +69,26 @@ header{
 
 .firstHeader__dropdown-item:focus {
     outline: none;
+}
+.secondHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../../assets/images/OIP.webp");
+    background-position: center;
+    border-bottom: 1px solid #731b1b;
+    font-size: 25px;
+}
+.secondHeader__item{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.3%;
+    width: 10%;
+    transition: 0.2s;
+}
+.secondHeader__item:hover{
+    background-color: #1a1a1a;
 }
 @media screen and (max-width: 450px) {
     .secondHeader{
