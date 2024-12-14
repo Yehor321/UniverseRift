@@ -21,8 +21,6 @@ header{
 .firstHeader__imglanguage{
     width: 20px;
     height: 20px;
-}
-.firstHeader__imglanguage:hover{
     fill: white;
 }
 .firstHeader__custom-selector {

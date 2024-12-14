@@ -141,7 +141,7 @@ export default function Header() {
 
             </div>
             <div className="secondHeader">
-                <NavLink className="secondHeader__item LandingPage" to={'LandingPage'}>{t('header.home')}</NavLink>
+                <NavLink className="secondHeader__item LandingPage" to={'/'}>{t('header.home')}</NavLink>
                 <NavLink className="secondHeader__item News" to={'News'}>{t('header.new')}</NavLink>
                 <NavLink className="secondHeader__item AboutUs" to={'AboutUs'}>{t('header.about')}</NavLink>
             </div>
@@ -151,7 +151,6 @@ export default function Header() {
             <Route path="/Download" element={<Download/>}/>
             <Route path="/News" element={<News/>}/>
             <Route path="/AboutUs" element={<AboutUs/>}/>
-            <Route path="/LandingPage" element={<LandingPage/>}/>
         </Routes>
         </>
     )
