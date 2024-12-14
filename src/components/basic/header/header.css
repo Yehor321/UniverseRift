@@ -19,8 +19,11 @@ header{
     text-transform: uppercase;
 }
 .firstHeader__imglanguage{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
+}
+.firstHeader__imglanguage:hover{
+    fill: white;
 }
 .firstHeader__custom-selector {
     position: relative;
