@@ -5,8 +5,6 @@ import { useTranslation } from 'react-i18next';
 import Download from "../../page/dowload/dowload"
 import News from "../../page/news/news"
 import AboutUs from "../../page/aboutus/aboutus"
-import LandingPage from "../../screen/landingPage"
-import imgLanguage from "../../../assets/images/language.svg"
 
 export default function Header() {
 

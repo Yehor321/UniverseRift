@@ -24,7 +24,7 @@ header{
     scale: 1.7;
     fill: white;
 }
-.firstHeader__custom-selector {
+.firstHeader__custom-selector { 
     position: relative;
     display: inline-block;
 }
@@ -57,7 +57,7 @@ header{
 
 .firstHeader__dropdown-item {
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     border: none;
     background-color: transparent;
